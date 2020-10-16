@@ -4,7 +4,7 @@ class Form extends React.Component {
     render() {
         return(   
     <>
-    <form style={{width: "500px",height:"500" ,margin:"0 auto", padding: "20px", border:"3px solid", borderRadius: "10px"}}>
+    <form style={{width: "500px",height:"500" ,margin:"0 auto", padding: "20px", border:"3px solid", borderRadius: "10px",marginTop: "10px"}}>
       <h2 style={{textAlign:"center"}}>Form Pembelian Buah</h2>
       <label for="nama" style={{display: "inline-block", width: "200px", textAlign:"left", fontWeight:"bold"}}>Nama Pelanggan</label>
       <input type="name" name="nama"/>
